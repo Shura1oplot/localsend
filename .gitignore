@@ -13,3 +13,6 @@
 
 # macOS
 .DS_Store
+
+/tools.log
+/web.log

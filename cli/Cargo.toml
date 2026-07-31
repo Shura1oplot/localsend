@@ -1,6 +1,16 @@
 [package]
-name = "cli"
+name = "localsend-cli"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+anyhow = "1.0.100"
+bytes = "1.11.0"
+localsend = { path = "../packages/core", features = ["http"] }
+pem = "3.0.6"
+rcgen = "0.13.2"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.149"
+tokio = { version = "1.49.0", features = ["full"] }
+tokio-util = { version = "0.7.16", features = ["rt"] }
+uuid = { version = "1.20.0", features = ["v4"] }
