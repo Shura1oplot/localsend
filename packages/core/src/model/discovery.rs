@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 
 /// The protocol version (major.minor) implemented by this crate for the v2 protocol.
-pub const PROTOCOL_VERSION_V2: &str = "2.1";
+pub const PROTOCOL_VERSION_V2: &str = "2.2";
 
 #[derive(Clone, Debug, Deserialize, Eq, Serialize, PartialEq)]
 #[serde(rename_all = "SCREAMING_SNAKE_CASE")]
